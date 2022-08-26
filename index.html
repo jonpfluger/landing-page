@@ -10,16 +10,20 @@
 <body>
     <header>
         <h1>Visitor Contact Info</h1>
-        <a href="AAA">About Us</a>
-        <a href="BBB">Contact Info</a>
-        <a href="CCC">More Options</a>
+        <a href="#about-us" alt="About Us">About Us</a>
+        <a href="#contact-info" alt="Contact Info">Contact Info</a>
+        <a href="#more-options" alt="More Options">More Options</a>
 
     </header>
 
     <img id="cat" src="cat.jpg" alt="Picture of a cartoon cat waving" />
 
+    
     <main>
-        <form>
+        <h3 id="about-us">About Us</h3>
+        <p>Welcome! Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text.</p>
+
+        <form id="contact-info">
             <h3 id="name">Please enter your name</h3>
             <p>
                 <input type="text">
@@ -34,8 +38,11 @@
                 <input type="submit">
             </p>
         </form>
+
+        <h3 id="more-options">More Options</h3>
+        <p>Hm...There is nothing here.</p>
     </main>
 
-    <footer>Thank you for your submitting!</footer>
+    <footer>Thank you for submitting!</footer>
 </body>
 </html>

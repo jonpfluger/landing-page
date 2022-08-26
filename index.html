@@ -21,23 +21,22 @@
     
     <main>
         <h3 id="about-us">About Us</h3>
-        <p>Welcome! Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text.</p>
+        <p><strong><i>Welcome!</i></strong> Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text Sample text.</p>
 
-        <form id="contact-info">
-            <h3 id="name">Please enter your name</h3>
-            <p>
-                <input type="text">
-                <input type="submit">
-            </p>
-        </form>
-
-        <form>
-            <h3 class="email">Please enter your Email</h3>
-            <p>
-                <input type="text">
-                <input type="submit">
-            </p>
-        </form>
+        <h3 id="contact-info">Contact Info</h3>
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Please enter your name">
+          
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Please enter your email address">
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
 
         <h3 id="more-options">More Options</h3>
         <p>Hm...There is nothing here.</p>

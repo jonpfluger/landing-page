@@ -7,9 +7,10 @@ body {
 
 header {
     position: fixed;
+    background-color: lightblue;
     width: 100%;
     text-align: center;
-    color: Green;
+    color: purple;
     border: 10px solid pink;
     padding: 5px;
 }

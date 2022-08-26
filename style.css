@@ -1,0 +1,40 @@
+body {
+    font: sans-serif;
+    font-family: sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: Green;
+    border: 10px solid pink;
+    padding: 5px;
+}
+
+a {
+    padding: 5%;
+}
+
+#cat {
+    display: block;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#name {
+    color: blue;
+}
+
+.email {
+    color: purple;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
